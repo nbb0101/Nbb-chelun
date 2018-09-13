@@ -54,8 +54,8 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     },
     before: function (app) {
       let user = {
-        username: 'nbb123456',
-        password: 'nbb111111'
+        username: 'nbb',
+        password: 'nbb'
       }
       app.post('/login', (req, res) => {
         var arr = [];
